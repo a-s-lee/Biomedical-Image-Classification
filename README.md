@@ -17,7 +17,8 @@ The project focuses on:
 
 ## Dataset
 
-The project uses the **BloodMNIST** dataset from MedMNIST.
+This project uses the **BloodMNIST** dataset from MedMNIST, containing
+17,092 blood cell images across 8 classes.
 
 | Split | Images |
 |---|---:|
@@ -26,16 +27,8 @@ The project uses the **BloodMNIST** dataset from MedMNIST.
 | Testing | 3,421 |
 | **Total** | **17,092** |
 
-Each image is a **28 × 28 RGB image** belonging to one of 8 blood cell classes:
-
-- Neutrophil
-- Eosinophil
-- Basophil
-- Lymphocyte
-- Monocyte
-- Immature Granulocyte
-- Erythroblast
-- Platelet
+The dataset is **not included** in this repository due to file size.
+It can be obtained through the MedMNIST dataset package.
 
 ## Technologies
 
